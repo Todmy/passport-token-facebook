@@ -1,0 +1,7 @@
+{
+  "name": "passport-token-facebook",
+  "version": "1.0.0",
+  "dependencies": {
+    "passport-facebook": "^2.0.0"
+  }
+}
