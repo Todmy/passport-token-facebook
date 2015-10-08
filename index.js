@@ -4,9 +4,6 @@ var FacebookStrategy = require('passport-facebook');
 
 class Strategy extends FacebookStrategy {
     constructor(options, verify) {
-        options.clientID = 1;
-        options.clientSecret = 'secret';
-
         super(options, verify);
 
         this.name = 'token-facebook';

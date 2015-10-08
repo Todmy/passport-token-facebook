@@ -1,6 +1,6 @@
 {
   "name": "passport-token-facebook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "yakimun/passport-token-facebook",
   "dependencies": {
     "passport-facebook": "^2.0.0"
