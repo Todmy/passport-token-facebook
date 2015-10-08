@@ -38,4 +38,5 @@ class Strategy extends FacebookStrategy {
     }
 }
 
-module.exports = Strategy;
+exports = module.exports = Strategy;
+exports.Strategy = Strategy;
