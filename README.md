@@ -21,7 +21,7 @@ unobtrusively integrated into any application or framework that supports
 The Facebook authentication strategy authenticates users using a Facebook
 account and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
-`options` specifying an app ID, app secret, callback URL, and optionally enabling [`appsecret_proof`] (https://developers.facebook.com/docs/graph-api/securing-requests#appsecret_proof).
+`options` specifying an app ID, app secret, and optionally enabling [`appsecret_proof`] (https://developers.facebook.com/docs/graph-api/securing-requests#appsecret_proof).
 
     passport.use(new TokenFacebookStrategy({
         clientID: FACEBOOK_APP_ID,
